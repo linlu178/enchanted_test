@@ -70,7 +70,7 @@
 		FF911DF12B98F08800915E94 /* WrappingHStack in Frameworks */ = {isa = PBXBuildFile; productRef = FF911DF02B98F08800915E94 /* WrappingHStack */; };
 		FF9300D42B778829000859F4 /* ChatView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9300D32B778829000859F4 /* ChatView_macOS.swift */; };
 		FF9300DA2B781D97000859F4 /* ToolbarView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9300D92B781D97000859F4 /* ToolbarView_macOS.swift */; };
-		FF9300DC2B7823B0000859F4 /* EmptyConversaitonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9300DB2B7823B0000859F4 /* EmptyConversaitonView.swift */; };
+                FF9300DC2B7823B0000859F4 /* EmptyConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9300DB2B7823B0000859F4 /* EmptyConversationView.swift */; };
 		FF9300DE2B782A28000859F4 /* UnreachableAPIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9300DD2B782A28000859F4 /* UnreachableAPIView.swift */; };
 		FF9300E02B783945000859F4 /* InputFields_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9300DF2B783945000859F4 /* InputFields_macOS.swift */; };
 		FF9C920A2BF0B7B1004C8275 /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9C92092BF0B7B1004C8275 /* LanguageModel.swift */; };
@@ -163,7 +163,7 @@
 		FF7FBE4B2B78E384000901F7 /* SamplePrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePrompt.swift; sourceTree = "<group>"; };
 		FF9300D32B778829000859F4 /* ChatView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView_macOS.swift; sourceTree = "<group>"; };
 		FF9300D92B781D97000859F4 /* ToolbarView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView_macOS.swift; sourceTree = "<group>"; };
-		FF9300DB2B7823B0000859F4 /* EmptyConversaitonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyConversaitonView.swift; sourceTree = "<group>"; };
+                FF9300DB2B7823B0000859F4 /* EmptyConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyConversationView.swift; sourceTree = "<group>"; };
 		FF9300DD2B782A28000859F4 /* UnreachableAPIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnreachableAPIView.swift; sourceTree = "<group>"; };
 		FF9300DF2B783945000859F4 /* InputFields_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFields_macOS.swift; sourceTree = "<group>"; };
 		FF9C92072BF0B464004C8275 /* EnchantedDebug.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = EnchantedDebug.entitlements; sourceTree = "<group>"; };
@@ -223,7 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				FF10025F2B26499B0011A4DC /* ConversationStatusView.swift */,
-				FF9300DB2B7823B0000859F4 /* EmptyConversaitonView.swift */,
+                                FF9300DB2B7823B0000859F4 /* EmptyConversationView.swift */,
 				FF1002532B261D460011A4DC /* MessageListVIew.swift */,
 				FF1002692B2731C60011A4DC /* ModelSelectorView.swift */,
 				FF9C920B2BF0C088004C8275 /* OptionsMenuView.swift */,
@@ -708,7 +708,7 @@
 				FF6D820D2B90C925001183A8 /* CompletionPanelView.swift in Sources */,
 				FF6D821C2B914202001183A8 /* CompletionsEditorView.swift in Sources */,
 				FFD57E302BF29145003FEFF1 /* MarkdownColours.swift in Sources */,
-				FF9300DC2B7823B0000859F4 /* EmptyConversaitonView.swift in Sources */,
+                                FF9300DC2B7823B0000859F4 /* EmptyConversationView.swift in Sources */,
 				FFBBF4882B34F9C8008D611C /* View+Extension.swift in Sources */,
 				FFEC9BE32B81358800AFBA63 /* DeallocPrinter.swift in Sources */,
 				FFBBF4842B34881B008D611C /* SpeechRecogniser.swift in Sources */,
