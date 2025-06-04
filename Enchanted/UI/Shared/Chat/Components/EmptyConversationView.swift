@@ -1,5 +1,5 @@
 //
-//  EmptyConversaitonView.swift
+//  EmptyConversationView.swift
 //  Enchanted
 //
 //  Created by Augustinas Malinauskas on 10/02/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct EmptyConversaitonView: View, KeyboardReadable {
+struct EmptyConversationView: View, KeyboardReadable {
     @Environment(\.openURL) private var openURL
     @State var showPromptsAnimation = false
     @State var prompts: [SamplePrompts] = []
@@ -129,5 +129,5 @@ struct EmptyConversaitonView: View, KeyboardReadable {
 }
 
 #Preview(traits: .fixedLayout(width: 1000, height: 1000)) {
-    EmptyConversaitonView(sendPrompt: {_ in})
+    EmptyConversationView(sendPrompt: {_ in})
 }

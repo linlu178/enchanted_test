@@ -193,7 +193,7 @@ struct ChatView: View {
                     editMessage: $editMessage
                 )
             } else {
-                EmptyConversaitonView(sendPrompt: {selectedMessage in
+                EmptyConversationView(sendPrompt: {selectedMessage in
                     if let selectedModel = selectedModel {
                         onSendMessageTap(selectedMessage, selectedModel, nil, nil)
                     }
